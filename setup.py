@@ -6,7 +6,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md")) as file:
 
 setup(
     name="match-ref",
-    version="1.0.0",
+    version="1.0.1",
     description="Use top-level variable references in match cases",
     long_description=readme,
     long_description_content_type="text/markdown",
