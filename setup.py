@@ -10,7 +10,7 @@ setup(
     description="Use top-level variable references in match cases",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/squirrel-preslash/matchref",
+    url="https://github.com/squirrel-preslash/match-ref",
     author="Squirrel-Preslash",
     license="MIT",
     classifiers=[

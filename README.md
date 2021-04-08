@@ -55,7 +55,7 @@ You can use `ref.any_local_or_global_variable_name` in any expression, not only 
 
 Only value retrieval is supported, as attribute-setting is not the purpose of this library.
 
-## How does this work?
+## How does it work?
 
 `ref` is the default instance of the `ScopeReference` class, defined in match-ref. It has a method `__getattr__` which gets called whenever you request an attribute of `ref`. This method then starts looking up the local namespace it was called from (your script or your function) and, if it doesn't find the variable you're looking for, continues searching the global namespace as well.
 
